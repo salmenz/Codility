@@ -5,7 +5,7 @@ def solution(N):
     max = 0
     for i in range(len(X)):
         if X[i] == '0':
-            r+=1
+            r += 1
         else:
             if r > max:
                 max = r
